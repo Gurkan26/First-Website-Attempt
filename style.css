@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(yazılımback.jpg);
+    background-size: cover ;
+}
+.box{
+    width: 450px;
+    background: blue;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: #fff;
+    font-family:  sans-serif;
+
+}
+.box img{
+    border-radius: 50%; /*Resimine köşelik ekledim yuvarlak içine aldım  */
+    width: 200px; /*resim boyutu ayarladım*/
+    height: 200px;
+    transition: 0.5s ;
+
+    cursor: pointer; /*resime efekt ekledim üstüne gelince büyüyor */
+
+}
+.box img:hover(){
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 100;
+
+}
+.box h3{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+.box li{
+    display: inline-block;
+    margin:  6px;
+    list-style: none;
+
+}
+.box li a{
+    color:white;
+    font-size: 80px;
+    transition: all ease-in-out 250ms; /* hovera yönlendiriyoruz yani mouse ikon üstüne gelince gidene kadar şunu yap diyorum */
+
+
+}
+.box li a:hover{
+    color:darkgrey; /* üzerine gelince renk değişimi olacak*/
+}
